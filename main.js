@@ -89,3 +89,23 @@ let fuzzer =fuzznbuzz(5);
 let buzzer = fuzznbuzz(3);
 let fuzzerbuzzer = fuzznbuzz(15);
 let noner = fuzznbuzz(1);
+
+
+
+//------------lab 3----------------
+
+
+
+
+var listings= [1,2,3,4,5,6,7,8,9,10]
+var listingsMap = []
+let mover = 0
+for (let index = 0; index < 10; index++){
+    mover =listings.pop()
+    mover = mover * 10
+    listingsMap.unshift(mover)
+    
+
+}
+
+console.log(listingsMap)
